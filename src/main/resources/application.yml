@@ -9,7 +9,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
   datasource:
-    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3306/gammapedidos}
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3306/gamma_pedidos}
     username: ${SPRING_DATASOURCE_USERNAME:root}
     password: ${SPRING_DATASOURCE_PASSWORD:Alejandro2024}
     driver-class-name: com.mysql.cj.jdbc.Driver
