@@ -9,6 +9,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/restaurantes")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class RestauranteController {
 
     @Autowired

@@ -11,6 +11,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/pedidos")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class PedidoController {
 
     private final PedidoService pedidoService;
